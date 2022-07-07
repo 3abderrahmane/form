@@ -1,0 +1,98 @@
+body{
+    background-image: radial-gradient(circle, red,blue,olive, black);
+    
+}
+@font-face {
+    font-family: Juice;
+    src: url(font/Norse-Bold.otf);
+}
+
+.formdiv{
+    width: 600px;
+    height: 650px;
+    margin: auto;
+    background-image:url(images/formImage.jpeg);
+    opacity: 0.8;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10% 5%;
+    text-align: center;
+    max-width: 100%;
+}
+.logup{
+    padding:2px; 
+    margin-left: 40px;
+    color:white;
+    font-family: Juice;
+    font-size: large;
+    width: 500px;
+    height: 120px;
+    background-image: url('images/logo.png');
+    background-position: right; 
+    background-repeat: no-repeat;
+    opacity: 0.7;
+    max-width: 90%;
+}
+.logup h1{
+    text-align:left;
+}
+
+label{
+    width: 200px;
+    color:yellowgreen;
+    font-size: 24px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.labeldata, .joinus{
+    width:200px;
+    display:inline-block;
+    max-width: 100%;
+    margin-bottom: 30px;
+}
+input{
+    width: 180px;
+    color: blue;
+    font-size:20px;
+    font-weight: bold;
+    border: 4px green solid;
+}   
+input:focus{
+    border: 4px blue solid;
+    box-shadow: 3px 7px 3px  white;
+}
+.joinus{
+    width:300px;
+    display:inline-block;
+    max-width: 100%;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.joinus h2{
+    color: whitesmoke;
+   
+}
+.joinus button{
+    width: 300px;
+    color:white;
+    background-color: rgb(113, 111, 243);
+    font-weight: bolder;
+    font-size: 24px;
+}
+.joinus a, .signin{
+    color: aqua;
+}
+.joinus a:hover{
+    font-size: 30px;
+    color:lawngreen;
+} 
+.joinus button:hover{
+    border-radius: 30%;
+    background-color: chartreuse;
+    color:blue;
+}
+#match{
+    font-size: 20px;
+    color:white;
+    display:none;
+}
